@@ -1,0 +1,212 @@
+.login_div {
+  text-align: center;
+}
+
+.login_div h1 {
+  color: rgb(69, 38, 13);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: burlywood;
+}
+
+.login {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px gray;
+  display: flex;
+  background-color: bisque;
+}
+
+#login_button {
+  color: white;
+  background-color: rgb(96, 51, 14);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+#login_button:hover {
+  background-color: rgb(142, 76, 22);
+}
+
+.signup_div {
+  text-align: center;
+}
+
+.signup_div h1 {
+  color: rgb(69, 38, 13);
+}
+
+.signup {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px gray;
+  display: flex;
+  background-color: bisque;
+}
+
+#signup_button {
+  color: white;
+  background-color: rgb(96, 51, 14);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+#signup_button:hover {
+  background-color: rgb(142, 76, 22);
+}
+.header {
+  color: rgb(69, 38, 13);
+  text-align: center;
+}
+
+.notes_list {
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+}
+
+.add_button {
+  background-color: rgb(96, 51, 14);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add_button:hover {
+  background-color: rgb(142, 76, 22);
+}
+
+.form {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.save_button {
+  background-color: rgb(96, 51, 14);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save_button:hover {
+  background-color: rgb(142, 76, 22);
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.my_notes {
+  margin-top: 20px;
+}
+
+.note {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note_title {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.note_content {
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.delete_button {
+  background-color: #5c0a04;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete_button:hover {
+  background-color: #840101;
+}
+
+.nothing {
+  text-align: center;
+}
+.edit_button {
+  background-color: rgb(96, 51, 14);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.edit_button:hover {
+  background-color: rgb(142, 76, 22);
+}
+
+.logout_button {
+  background-color: rgb(96, 51, 14);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+  margin: 10px 0;
+}
+
+.logout_button:hover {
+  background-color: rgb(142, 76, 22);
+}
